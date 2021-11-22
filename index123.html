@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="Description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Team Up </title>
+  <link type="text/css" href="styles/main.css" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <!-- <link rel="stylesheet" href="/styles/vendor/materialize.min.css"> -->
+  <!-- <link rel="manifest" href="manifest.json">  -->
+
+  <!-- ios icon support-->
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="theme-color" content="#FFE1C4">
+
+  <!-- ios splash screen support-->
+  <link href="splashscreens/iphone5_splash.png"
+    media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)"
+    rel="apple-touch-startup-image" />
+  <link href="splashscreens/iphone6_splash.png"
+    media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)"
+    rel="apple-touch-startup-image" />
+  <link href="splashscreens/iphoneplus_splash.png"
+    media="(device-width: 621px) and (device-height: 1104px) and (-webkit-device-pixel-ratio: 3)"
+    rel="apple-touch-startup-image" />
+  <link href="splashscreens/iphonex_splash.png"
+    media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3)"
+    rel="apple-touch-startup-image" />
+  <link href="splashscreens/iphonexr_splash.png"
+    media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2)"
+    rel="apple-touch-startup-image" />
+  <link href="splashscreens/iphonexsmax_splash.png"
+    media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3)"
+    rel="apple-touch-startup-image" />
+  <link href="splashscreens/ipad_splash.png"
+    media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2)"
+    rel="apple-touch-startup-image" />
+  <link href="splashscreens/ipadpro1_splash.png"
+    media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2)"
+    rel="apple-touch-startup-image" />
+  <link href="splashscreens/ipadpro3_splash.png"
+    media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2)"
+    rel="apple-touch-startup-image" />
+  <link href="splashscreens/ipadpro2_splash.png"
+    media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2)"
+    rel="apple-touch-startup-image" />
+
+  <style id="matchRateKeyFrames"></style>
+
+</head>
+
+<body>
+
+
+  <div class="searchEmployeesStack">
+    
+    <div class="searchEmployee">
+
+
+      <div class="searchEmployeesStackHeader">
+        <span class="material-icons backWard">
+
+        </span>
+      </div>
+
+      <form class="container searchForm">
+
+        <div>
+          <div class="disciplines">
+            <div class="input-field col s12">
+              <select>
+                <option value="" disabled selected>Choose your option</option>
+                <option value="IT">IT</option>
+                <option value="Engineering">Engineering</option>
+                <option value="Environment">Environment</option>
+              </select>
+              <label style="font-size: 18px; font-weight: 600;">Disciplines</label>
+            </div>
+
+          </div>
+
+
+          <div style="margin-top: 50px;">
+            <label style="font-size: 18px; font-weight: 600;">Number of Teams Worked With</label>
+            <p>
+              <label style="margin-right: 8px;">
+                <input class="with-gap" name="NTWW" type="radio" checked value="0 - 5" />
+                <span>0 - 5</span>
+              </label>
+              <label style="margin-right: 8px;">
+                <input class="with-gap" name="NTWW" type="radio" checked value="5 - 10" />
+                <span>5 - 10</span>
+              </label style="margin-right: 8px;">
+              <label>
+                <input class="with-gap" name="NTWW" type="radio" checked value="10+" />
+                <span>10+</span>
+              </label>
+            </p>
+          </div>
+
+          <div style="margin-top: 50px;">
+            <label style="font-size: 18px; font-weight: 600;">Organisational Skills</label>
+            <p>
+              <label style="margin-right: 8px;">
+                <input type="checkbox" name="organisationalSkills" class="filled-in" value="Motivating" />
+                <span>Motivating</span>
+              </label>
+              <label style="margin-right: 8px;">
+                <input type="checkbox" name="organisationalSkills" class="filled-in" value="Delegating" />
+                <span>Delegating</span>
+              </label style="margin-right: 8px;">
+              <label>
+                <input type="checkbox" name="organisationalSkills" class="filled-in" value="Leadership" />
+                <span>Leadership</span>
+              </label>
+            </p>
+            <p>
+              <label style="margin-right: 8px;">
+                <input type="checkbox" name="organisationalSkills" class="filled-in" value="Goal-setting" />
+                <span>Goal-setting</span>
+              </label>
+              <label style="margin-right: 8px;">
+                <input type="checkbox" name="organisationalSkills" class="filled-in" value="Conflict-Management" />
+                <span>Conflict-Management</span>
+              </label style="margin-right: 8px;">
+              <label>
+                <input type="checkbox" name="organisationalSkills" class="filled-in" value="Time-Management" />
+                <span>Time-Management</span>
+              </label>
+            </p>
+          </div>
+
+
+          <div style="margin-top: 50px;">
+            <label style="font-size: 18px; font-weight: 600;">Communication Methods</label>
+            <p>
+              <label style="margin-right: 8px;">
+                <input type="checkbox" name="communicationMethods" value="Phone Call" class="filled-in" />
+                <span>Phone Call</span>
+              </label>
+              <label style="margin-right: 8px;">
+                <input type="checkbox" name="communicationMethods" value="MS Teams" class="filled-in" />
+                <span>MS Teams</span>
+              </label style="margin-right: 8px;">
+              <label>
+                <input type="checkbox" name="communicationMethods" value="E-mail" class="filled-in" />
+                <span>E-mail</span>
+              </label>
+            </p>
+            <p>
+              <label style="margin-right: 8px;">
+                <input type="checkbox" name="communicationMethods" value="Face-to-Face" class="filled-in" />
+                <span>Face-to-Face</span>
+              </label>
+              <label style="margin-right: 8px;">
+                <input type="checkbox" name="communicationMethods" value="Video Call" class="filled-in" />
+                <span>Video Call</span>
+              </label style="margin-right: 8px;">
+              <label>
+                <input type="checkbox" name="communicationMethods" value="Social Media" class="filled-in" />
+                <span>Social Media</span>
+              </label>
+            </p>
+          </div>
+
+          <div style="margin-top: 50px;">
+            <label style="font-size: 18px; font-weight: 600;">Availability</label>
+            <p>
+              <label style="margin-right: 8px;">
+                <input type="checkbox" name="availability" value="Morning" class="filled-in" />
+                <span>Morning</span>
+              </label>
+              <label style="margin-right: 8px;">
+                <input type="checkbox" name="availability" value="Day" class="filled-in" />
+                <span>Day</span>
+              </label style="margin-right: 8px;">
+              <label>
+                <input type="checkbox" name="availability" value="Evening" class="filled-in" />
+                <span>Evening</span>
+              </label>
+            </p>
+
+          </div>
+        </div>
+        <button class="waves-effect waves-light btn center-align teal darken-3" id="searchBtn"
+          style="align-self: center;"><i class="material-icons left">search</i>Search</button>
+      </form>
+
+    </div>
+
+
+    <!-- search results screen-->
+    <div class="searchResults">
+
+      <div class="searchEmployeesStackHeader">
+        <span class="material-icons backWard">
+          arrow_back_ios
+        </span>
+
+      </div>
+      <div class="selectedCriterias">
+        <p>Selected Criterias</p>
+      </div>
+      <div class="resultsContainer">
+
+        <ul class="collapsible popout resultsList">
+
+        </ul>
+      </div>
+    </div>
+
+    <div class="moreInfo">
+      <div class="searchEmployeesStackHeader">
+        <span class="material-icons backWard">
+          arrow_back_ios
+        </span>
+      </div>
+      <div class="profileHeader">
+
+      </div>
+      <div class="profileBody">
+      </div>
+    </div>
+  </div>
+
+  <div class="savedEmployeesStack">
+    <div class="savedEmployees">
+      <div class="savedEmployeesStackHeader">
+        <span class="material-icons backWard">
+
+        </span>
+      </div>
+
+      <ul class="collection">
+        <li class="collection-item avatar">
+          <img src="images/yuna.jpg" alt="" class="circle">
+          <span class="title">Title</span>
+          <p>First Line <br>
+            Second Line
+          </p>
+          <a class="waves-effect waves-light btn-small moreInfoBtn"><i class="material-icons left">read_more</i>More</a>
+          <a class="waves-effect waves-light btn-small"><i class="material-icons left">person_remove</i>Remove</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="savedMoreInfo">
+      <div class="savedEmployeesStackHeader">
+        <span class="material-icons backWard">
+          arrow_back_ios
+        </span>
+      </div>
+      <div class="savedProfileHeader"
+        style=" width:100%; display: flex; margin-top: 28px; justify-content: center; flex-direction: column; align-items: center;">
+
+      </div>
+      <div class="savedProfileBody" style="margin: 5%; font-weight: 900;">
+
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+
+  <div class="registerEmployeeStack">
+    <div class="registration">
+      <div class="registerEmployeeStackHeader">
+        <span class="material-icons backWard">
+        </span>
+        <h6 class="registerHeaderTitle">
+          Registration
+        </h6>
+      </div>
+      <div class="container">
+
+        <form class="col s12 registerForm">
+
+
+          <div class="row">
+            <div class="input-field col s6">
+              <i class="material-icons prefix">account_circle</i>
+              <input id="first_name" type="text" class="validate">
+              <label for="first_name">First Name</label>
+            </div>
+            <div class="input-field col s6">
+              <i class="material-icons prefix"></i>
+              <input id="last_name" type="text" class="validate">
+              <label for="last_name">Last Name</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <i class="material-icons prefix">mail</i>
+              <input id="email" type="email" class="validate">
+              <label for="email">Email</label>
+            </div>
+
+          </div>
+          <div class="row">
+
+            <div class="input-field col s12">
+              <i class="material-icons prefix">phone</i>
+              <input id="mobile_phone" type="tel" class="validate">
+              <label for="mobile_phone">Mobile phone</label>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="input-field col s12">
+              <select class="registerArea">
+                <option value="" disabled selected>Choose your option</option>
+                <option value="IT">IT</option>
+                <option value="Engineering">Engineering</option>
+                <option value="Environment">Environment</option>
+              </select>
+              <label>Area</label>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="input-field col s12">
+              <select class="registerNTWW">
+                <option value="" disabled selected>Choose your option</option>
+                <option value="0 - 5">0-5</option>
+                <option value="5 - 10">5-10</option>
+                <option value="10+">10+</option>
+              </select>
+              <label>Number of teams worked with</label>
+            </div>
+          </div>
+
+
+          <div class="row">
+            <div class="input-field col s12">
+              <select multiple class="registerAvailability">
+                <option value="" disabled selected>Choose your option</option>
+                <option value="morning">Morning</option>
+                <option value="day">Day</option>
+                <option value="evening">Evening</option>
+              </select>
+              <label>Availability</label>
+            </div>
+          </div>
+
+
+          <div class="row">
+            <div class="input-field col s12">
+              <label for="chips-autocomplete">Skills</label>
+              <div class="chips chips-autocomplete"></div>
+            </div>
+          </div>
+
+
+          <div class="file-field input-field">
+            <div class="btn-small indigo darken-3">
+              <span>Photo</span>
+              <input type="file">
+            </div>
+            <div class="file-path-wrapper">
+              <input class="file-path validate" type="text">
+            </div>
+          </div>
+          <button class="btn waves-effect waves-light registerSubmitBtn" type="submit" name="action">
+            Complete
+            <i class="material-icons left">check_circle</i>
+          </button>
+
+        </form>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <div class="bottomNav">
+    <div class="bottomNavIconContainer">
+      <a class="employeeSearchBtn">
+        <img src="assets/images/AppIcons/outline_person_search_black_24dp.png" style="height: 28px; width: 28px;"
+          class="material-icons " />
+      </a>
+      <span class="bottomIconTitle ">Search Employee</span>
+    </div>
+
+    <div class="bottomNavIconContainer">
+      <a class="collectionBtn">
+        <img src="assets/images/AppIcons/round_star_border_black_24dp.png" style="height: 28px; width: 28px;"
+          class="material-icons " />
+      </a>
+      <span class="bottomIconTitle">Saved Employees</span>
+    </div>
+
+    <div class="bottomNavIconContainer">
+      <a class="registerBtn">
+        <img src="assets/images/AppIcons/outline_group_add_black_24dp.png" style="height: 28px; width: 28px;"
+          class="material-icons " />
+      </a>
+      <span class="bottomIconTitle">Register Employee</span>
+    </div>
+
+  </div>
+
+
+
+  <script src="scripts/app.js"></script>
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+  <script src="scripts/vendor/jquery-3.5.1.min.js"></script>
+  <script src="scripts/vendor/materialize.min.js"></script>
+  <script src="scripts/main.js"></script>
+</body>
+
+</html>
