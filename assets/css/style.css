@@ -618,12 +618,12 @@ body {
 }
 
 #topnav {
-  position: sticky;
+  position: fixed;
   width: 100%;
   top: -50px;
   
   z-index: 1030;
-  background-color: transparent;
+  background-color: #35a989;
   border: 0;
   -webkit-transition: all .5s ease;
   transition: all .5s ease;
