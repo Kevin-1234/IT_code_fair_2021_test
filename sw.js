@@ -46,7 +46,7 @@ const staticCacheName = 'site-static-v1.1';
 
 //github version
 const assets = [
-  '/IT-Code-Fair-2020/',
+  '/IT_code_fair_2021_test/',
   'index.html',
   'scripts/app.js',
   'scripts/main.js',
