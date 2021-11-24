@@ -54,7 +54,8 @@ TABLES OF CSS
 ===================*/
 body {
   background-repeat: repeat;
-  background: #f3f3f3;
+  /*background: #f3f3f3;*/
+  background:#35a989;
   font-family: "Roboto", sans-serif;
   color: #5b626b;
   font-size: 13.5px;
@@ -618,16 +619,17 @@ body {
 }
 
 #topnav {
+  
   position: fixed;
   width: 100%;
-  top: -50px;
+  top: 0px;
   
   z-index: 1030;
   background-color: #35a989;
   border: 0;
   -webkit-transition: all .5s ease;
   transition: all .5s ease;
-  height: 92px;
+  min-height: 62px; 
 }
 
 #topnav .has-submenu.active a {
