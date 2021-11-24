@@ -118,7 +118,7 @@ a:focus {
 }
 
 #wrapper {
-  background-color: #f3f3f3;
+  
   height: 100%;
   overflow: hidden;
   width: 100%;
@@ -612,6 +612,7 @@ body {
 }
 
 .wrapper {
+  background-color: #f3f3f3;
   padding-top: 120px;
 }
 
@@ -1079,6 +1080,7 @@ body {
 
 @media (max-width: 991px) {
   .wrapper {
+    background-color: #f3f3f3;
     padding-top: 60px;
   }
   .container-fluid {
