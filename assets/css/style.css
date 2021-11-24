@@ -622,10 +622,9 @@ body {
 
 #topnav {
   
-  position: fixed;
+  position: sticky;
   width: 100%;
   top: 0px;
-  
   z-index: 1030;
   background-color: #35a989;
   border: 0;
