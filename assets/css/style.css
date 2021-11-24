@@ -547,7 +547,7 @@ dt {
   line-height: 1em;
   text-align: center;
   text-decoration: none;
-  z-index: 1;
+  z-index: 101;
 }
 
 .waves-button {
@@ -573,7 +573,7 @@ dt {
   position: relative;
   top: 0;
   left: 0;
-  z-index: 1;
+  z-index: 101;
 }
 
 .waves-circle {
@@ -612,8 +612,40 @@ body {
 }
 
 .wrapper {
+  position: static;
   background-color: #f3f3f3;
   padding-top: 120px;
+  z-index: 1;
+  top: 60px;
+  display: none;
+}
+
+/* customized styles */
+.form-page-wrapper {
+  z-index: 0;
+  position: static;
+  top: 60px;
+  /* display: none; */
+  padding-top: 60px;
+  background-color: #f3f3f3;
+
+}
+
+.bottom-nav{
+  position: fixed;
+  bottom: 0px;
+  height: 88px;
+  width: 100%;
+  background-color: #35a989;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: .5rem 1rem;
 }
 
 .container-fluid {
@@ -622,7 +654,7 @@ body {
 
 #topnav {
   
-  position: sticky;
+  position: absolute;
   width: 100%;
   top: 0px;
   z-index: 1030;
@@ -1872,7 +1904,7 @@ button:focus {
   right: auto;
   bottom: auto;
   left: auto;
-  z-index: 1;
+  z-index: 101;
   display: block;
 }
 
@@ -2478,7 +2510,7 @@ input[switch="dark"]:checked + label {
 }
 
 .bootstrap-touchspin .input-group-btn:not(:first-child) > .btn, .bootstrap-touchspin .input-group-btn:not(:first-child) > .btn-group {
-  z-index: 2;
+  z-index: 102;
   margin-left: -1px;
 }
 
@@ -2571,7 +2603,7 @@ input[switch="dark"]:checked + label {
 .fc-toolbar .fc-state-active, .fc-toolbar .ui-state-active,
 .fc-toolbar button:focus, .fc-toolbar button:hover,
 .fc-toolbar .ui-state-hover {
-  z-index: 0;
+  z-index: 100;
 }
 
 .fc-widget-header {
@@ -2761,7 +2793,7 @@ table.focus-on tbody tr.focused td {
 .table-rep-plugin .checkbox-row input[type="checkbox"] {
   cursor: pointer;
   opacity: 0;
-  z-index: 1;
+  z-index: 101;
   outline: none !important;
 }
 
@@ -2924,7 +2956,7 @@ table.focus-on tbody tr.focused td {
 .percent {
   display: inline-block;
   line-height: 110px;
-  z-index: 2;
+  z-index: 102;
 }
 
 .percent:after {
@@ -3087,7 +3119,7 @@ table.focus-on tbody tr.focused td {
   color: #ffffff;
   text-align: center;
   pointer-events: none;
-  z-index: 1;
+  z-index: 101;
   -webkit-transition: opacity .2s linear;
   transition: opacity .2s linear;
 }
@@ -3425,7 +3457,7 @@ table.focus-on tbody tr.focused td {
   color: #ffffff;
   background-color: #35a989;
   border: 3px solid #ffffff;
-  z-index: 1;
+  z-index: 101;
   -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.08);
           box-shadow: 0 2px 3px rgba(0, 0, 0, 0.08);
 }
@@ -3710,7 +3742,7 @@ Invoice
 
 @media (max-width: 480px) {
   .side-menu {
-    z-index: 10 !important;
+    z-index: 110 !important;
   }
   .button-menu-mobile {
     display: block;
